@@ -29,46 +29,29 @@
 	</header>
 
 	<main>
-		<h1>Archive</h1>
-
-
-
-
-
-<ul class="archive">
+		<article>
 	
+		<h1></h1>
 	
-		<li class="archive__year archive__expendable ">
-			<span>2019</span>
-			<ul>
-				
-					<li class="archive__month archive__expendable">
-						<span>July</span>
-						<ul>
-							
-								<li class="archive__entry"><a href="/2019/07/24/text2/"></a></li>
-							
-								<li class="archive__entry"><a href="/2019/07/19/text1/"></a></li>
-							
-						</ul>
-					</li>
-
-				
-			</ul>
-		</li>
+	<div class="article__infos">
+		<span class="article__date">2019-07-24</span><br>
 		
-	
-</ul>
+		
+	</div>
 
-<script>
-	const expandables = document.querySelectorAll('.archive__expendable')
-	for(let i = 0; i < expandables.length; i++) {
-		expandables[i].addEventListener('click', (e) => {
-			e.stopPropagation()
-			expandables[i].classList.toggle('archive__expendable_collapsed')
-		})
-	}
-</script>
+	
+
+	
+		<p><figure class="figure"><img src="./pic/3.JPG" alt="❤"><figcaption class="figure__caption">❤</figcaption></figure></p>
+
+	
+
+	
+		<span class="different-posts"><a href="/2019/07/24/text2/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
+
+	
+
+</article>
 
 	</main>
 
